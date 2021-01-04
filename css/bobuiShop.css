@@ -28,6 +28,7 @@
 .showSelectButton {
   cursor: pointer;
   margin-left: 30px;
+  position: relative;
 }
 .line1,
 .line2,
@@ -44,6 +45,30 @@
   background-color: #ec4445;
 }
 
+.collapseWrapper {
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  z-index: 6;
+  top: 30px;
+  padding: 10px 10px 10px 30px;
+}
+.collapseWrapper a {
+  text-decoration: none;
+}
+.collapseItem {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 60px;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+.collapseItem:hover {
+  color: black;
+  text-decoration: underline;
+}
 .logo img {
   width: 130px;
   max-width: 100%;

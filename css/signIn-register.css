@@ -1,0 +1,115 @@
+.signIn-page {
+  margin-left: 30px;
+  line-height: 40px;
+}
+.signIn-page .shop-text {
+  cursor: pointer;
+}
+.signIn-page .shop-text:hover {
+  text-decoration: underline;
+}
+.account-text {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.account-text:hover {
+  color: black;
+  text-decoration: none;
+}
+.account-text::before {
+  content: "/";
+  margin-right: 5px;
+}
+/* ------------------------------------account section-------------------------- */
+/* signin */
+.account-container {
+  width: 100%;
+  height: auto;
+  margin-top: 115px !important;
+}
+hr {
+  width: 80%;
+  margin-left: 15%;
+}
+.signInHeader {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 15%;
+  font-weight: 700;
+}
+.signInContainer {
+  height: auto;
+  padding: 10px;
+}
+.signInWrapper {
+  width: 80%;
+  height: auto;
+  border: solid 1px black;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.emailLabel,
+.passwordLabel {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 3%;
+}
+.emailInput,
+.passwordInput {
+  width: 94%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-left: 3%;
+}
+.emailLabel {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.passwordLabel {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.button {
+  width: 94%;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 3%;
+}
+.checkboxWrapper {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 3%;
+  justify-content: flex-start;
+}
+.checkboxWrapper p {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.checkbox {
+  margin-top: 3px;
+}
+.forgetPassword {
+  margin-left: 3%;
+  color: #292929;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.forgetPassword:hover {
+  color: black;
+  color: #292929;
+}
+/* regiter */
+.registerContainer .signInHeader,
+.registerContainer hr,
+.registerContainer .signInWrapper {
+  margin-left: 0 !important;
+}
