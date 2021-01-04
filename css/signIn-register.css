@@ -113,3 +113,26 @@ hr {
 .registerContainer .signInWrapper {
   margin-left: 0 !important;
 }
+@media (max-width: 770px) {
+  .signInWrapper {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .registerContainer .signInWrapper {
+    margin-left: 5% !important;
+  }
+  .signInHeader {
+    margin-left: 5%;
+  }
+  hr {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .registerContainer .signInHeader {
+    margin-left: 5% !important;
+  }
+  .registerContainer hr {
+    margin-left: 5% !important;
+    width: 90% !important;
+  }
+}
